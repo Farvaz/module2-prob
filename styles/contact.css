@@ -1,0 +1,30 @@
+.contacts {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contacts h2:before {
+    content: '';
+    display: block;
+    margin-bottom: 13px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../resources/miniphone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.contacts__item {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 62px;
+    line-height: 65px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+.contacts__item:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
