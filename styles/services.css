@@ -5,7 +5,7 @@
 }
 
 .services h2 {
-    padding-bottom: 31px;
+    width: 66px;
     color: #FFFFFF;
 }
 
@@ -14,20 +14,25 @@
     line-height: 40px;
 }
 
-.services__price {
-    padding-bottom: 60px;
-}
-
-.services__price:last-child {
-    padding-bottom: 0px;
-}
-
 .services__description {
     margin-top: 25px;
     color: #FFFFFF;
 }
 
+.services__text {
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 5px 20px 5px 22px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
 .services-wrapper {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -35,10 +40,36 @@
 }
 
 .services-box {
+    position: relative;
     width: calc(50% - 5.5px);
 }
 
+.services__btn {
+    width: 100%;
+    height: 153px;
+    margin-top: 106px;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #AD1818;
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.services__btn:hover {
+    color: #AD1818;
+    background-color: #FFFFFF;
+}
+
 @media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-left: 27px;
+        padding-right: 23px;
+    }
+
     .services-box {
         width: calc(50% - 5px);
     }
@@ -47,17 +78,67 @@
         row-gap: 80px;
     }
 
+    .services__image {
+        width: 100%;
+        height: 315px;
+    }
+
     .services__description {
         margin-top: 15px;
     }
+
+    .services__text {
+        left: 32px;
+        font-size: 20px;
+        line-height: 27px;
+        padding: 7px 26px 6px 27px;
+    }
+
+    .services__btn {
+        margin-top: 80px;
+        border-radius: 5px;
+    }    
+       
 }
 
 @media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding-left: 21px;
+        padding-right: 15px;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+
     .services-wrapper {
+        margin-top: 20px;
         row-gap: 60px;
+    }
+
+    .services__image {
+        width: 100%;
+        height: 240px;
     }
 
     .services__description {
         margin-top: 10px;
+    }
+
+    .services__text {
+        top: 23px;
+        left: 24px;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 5px 23px 6px 24px;
+        border-radius: 4px;
+    }
+
+    .services__btn {
+        height: 100px;
+        margin-top: 60px;
+        line-height: 100px;
+        border-radius: 3px;
     }
 }
