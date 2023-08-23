@@ -20,7 +20,7 @@
     width: calc(50% - 25.5px);
 }
 
-.review:last-child {
+.review:last-child:nth-child(2n + 1) {
     width: 75%;
 }
 
