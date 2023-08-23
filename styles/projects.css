@@ -60,8 +60,8 @@
     }
 
     .projects {
-        margin-top: 120px;
-        margin-bottom: 103px;
+        padding-top: 120px;
+        padding-bottom: 103px;
     }
 
     .project__image {
@@ -99,8 +99,8 @@
     }
     
     .projects {
-        margin-top: 80px;
-        margin-bottom: 144px;
+        padding-top: 80px;
+        padding-bottom: 144px;
     }
 
     .project:first-child {
