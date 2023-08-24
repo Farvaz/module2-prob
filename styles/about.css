@@ -1,6 +1,6 @@
 .about__title {
     font-size: 18px;
-    line-height: 29px;   
+    line-height: 24.59px;   
 }
 
 .about {
@@ -47,11 +47,6 @@
         padding-top: 120px;
     }
 
-    .about__title {
-        font-size: 18px;
-        line-height: 29px;   
-    }
-
     .about__subtitle {
         width: 690px; 
         font-size: 35px;
@@ -77,8 +72,8 @@
     }
 
     .about__title {
-        font-size: 15px;
-        line-height: 17px;   
+        font-size: 14px;
+        line-height: 19.12px;   
     }
 
     .about__subtitle {

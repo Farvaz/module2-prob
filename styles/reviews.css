@@ -1,9 +1,9 @@
 .reviews {
     padding-top: 150px;
-    padding-bottom: 157px;
+    padding-bottom: 150px;
 }
 
-.h2 {
+.reviews__title {
     font-size: 18px;
     line-height: 24.59px;
 }
@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 110px;
+    row-gap: 80px;
 }
 
 .review {
@@ -24,7 +24,7 @@
     width: 75%;
 }
 
-.review_title {
+.review_description {
     font-size: 45px;
     line-height: 61.47px;   
 }
@@ -37,7 +37,7 @@
 
 @media (max-width: 1199px) {
     .reviews {
-        padding-top: 117px;
+        padding-top: 120px;
         padding-bottom: 120px;
     }
 
@@ -48,7 +48,7 @@
     }
 
     .reviews-list {
-        row-gap: 128px;
+        row-gap: 80px;
     }
 
     .review_text {
@@ -61,7 +61,7 @@
         width: calc(50% - 5.5px);
     }
 
-    .review_title {
+    .review_description {
         font-size: 35px;
         line-height: 47.81px;   
     }
@@ -79,8 +79,9 @@
     }
 
     .reviews-list {
+        flex-direction: column;
         margin-top: 22px;
-        row-gap: 77px;
+        row-gap: 75px;
     }
 
     .review_text {
@@ -93,11 +94,16 @@
         width: 100%;
     }
 
-    .review:last-child {
+    .review:last-child:nth-child(2n + 1) {
         width: 100%;
     }
 
-    .review_title {
+    .reviews__title {
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+
+    .review_description {
         font-size: 25px;
         line-height: 34.15px;   
     }

@@ -28,12 +28,6 @@ h1, h2, h3, div, p, a {
     width: 1150px 
 }
 
-h3 {
-    font-size: 30px;
-    line-height: 41px;
-}
-
-
 @media (max-width: 1199px) {
     .container {
         width: 100%;
