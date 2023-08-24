@@ -1,13 +1,16 @@
-.galleryfullscreen {
-    height: 717px;
-    background-image: url('../resources/poolimage.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+.gallery-wrapper {
     position: relative;
 }
 
-.galleryfullscreen p {
+.gallery__title {
+    position: absolute;
+    top: 60px;
+    font-size: 22px;
+    line-height: 30.05px;
+    color: #FFFFFF;
+}
+
+.gallery__text {
     position: absolute;
     bottom: 60px;
     color: #FFFFFF;
@@ -15,4 +18,48 @@
     font-size: 30.3px;
     line-height: 42px;
     letter-spacing: -1px  
+}
+
+.gallery {
+    display: none;
+}
+
+.gallery_active {
+    display: block;
+}
+
+.gallery__image {
+    
+}
+
+@media (max-width: 1199px) {
+    .gallery__title {
+        top: 80px;
+        left: 50px;
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+
+    .gallery__text {
+        left: 50px;
+        bottom: 80px;
+        font-size: 25px;
+        line-height: 35.15px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery__title {
+        top: 61px;
+        left: 12px;
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+
+    .gallery__text {
+        left: 13px;
+        bottom: 60px;
+        font-size: 19.01px;
+        line-height: 25.97px; 
+    }
 }
