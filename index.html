@@ -168,47 +168,33 @@
 
         <!--Секция ГАЛЕРИЯ-->
         <section class="galleryfullscreen">
-            <div class="container">  
+            <div class="gallery">  
                 <div class="gallery-wrapper">
-                 
-                    <ul class="gallery__inner">               
-                        <li class="gallery">
-                                <source media="(max-width: 767px)" srcset="resources/galleryfullscreen/forest.png" />
-                                <source media="(max-width: 1199px)" srcset="resources/galleryfullscreen/forest.png" />                              
-                                <img class="gallery__image" src="resources/galleryfullscreen/forest.png" alt="диван">
-                            </picture>                             
-                        </li>
-                    
-                        <li class="gallery">   
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="/resources/galleryfullscreen/Mayak.png" />
-                                <source media="(max-width: 1199px)" srcset="resources/galleryfullscreen/Mayak.png" />                              
-                                <img class="gallery__image" src="resources/galleryfullscreen/Mayak.png" alt="желтый стул">
-                            </picture>                             
-                        </li>    
-
-                        <li class="gallery">   
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="/resources/galleryfullscreen/kitchen.png" />
-                                <source media="(max-width: 1199px)" srcset="/resources/galleryfullscreen/kitchen.png" />                              
-                                <img class="gallery__image" src="resources/galleryfullscreen/kitchen.png" alt="гостинная">
-                            </picture>                             
-                        </li>  
-                       
-                        <li class="gallery">   
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="/resources/galleryfullscreen/north.png" />
-                                <source media="(max-width: 1199px)" srcset="/resources/galleryfullscreen/north.png" />                              
-                                <img class="gallery__image" src="resources/galleryfullscreen/north.png" alt="диван и гитара">
-                            </picture>                             
-                        </li>            
-                    </ul> 
-
+                    <div class="gallery__title_container">
+                        <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+                    </div>
                 </div>
 
-                <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
-                                
-                <p class="gallery__text">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>          
+                <div class="gallery__slides">
+                    <div class="gallery__slide">
+                        <img class="gallery__image" src="resources/galleryfullscreen/forest.png" alt="диван">
+                    </div>
+                </div>
+             
+                <div class="gallery__controls">
+                    <div class="gallery__container">
+                        <div class="gallery__control">
+                            <button class="gallery__control-prev"> </button>
+                            <button class="gallery__control-next"> </button>
+                        </div>
+                    </div>
+                </div>    
+            
+                
+    
+                <!--                
+                <p class="gallery__text">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>      
+                -->    
             </div>
         </section>
 
