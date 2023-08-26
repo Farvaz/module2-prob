@@ -15,7 +15,7 @@
     position: relative;
 }
 
-.gallery__controls {
+.gallery__controls_container {
     position: absolute;
     bottom: 165px;
     width: 100%;
@@ -39,15 +39,23 @@
     color: #FFFFFF;
 }
 
-.gallery__text {
+.galley__text-wrapper {
     position: absolute;
-    left: 80px;
-    bottom: 46px;
+    bottom: 60px;
+    width: 100%;
+}
+
+.gallery__text_container {
+    width: 1150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallery__text {
+    font-size: 30px;
+    line-height: 41px;
     color: #FFFFFF;
-    width: 443px;
-    font-size: 30.3px;
-    line-height: 42px;
-    letter-spacing: -1px  
+    max-width: 420px;  
 }
 
 .gallery__slides {
