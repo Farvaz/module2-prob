@@ -47,8 +47,8 @@
         </section>
         <!--Секция О НАС-->
         <section class="about">
-            <div class="container">
-                <h2 class="about__title" id="aboutus">О НАС</h2>
+            <div id="aboutus" class="container">
+                <h2 class="about__title">О НАС</h2>
 
                 <p class="about__subtitle">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
            
@@ -57,9 +57,9 @@
         </section>
          <!--Секция ПРОЕКТЫ-->
         <section class="projects">
-            <div class="container">
+            <div id="projects" class="container">
 
-                <h2 class="project__title" id="projects">ПРОЕКТЫ</h2>
+                <h2 class="project__title">ПРОЕКТЫ</h2>
 
                     <ul class="project__content">               
                         <li class="project">   
@@ -99,9 +99,9 @@
         
         <!--Секция УСЛУГИ-->  
         <section class="services">
-            <div id="services" class="container">
+            <div id="services"  class="container">
                 
-                <h2 id="services" class="services__title">УСЛУГИ</h2>
+                <h2 class="services__title">УСЛУГИ</h2>
 
                 <ul class="services-wrapper">
 
@@ -138,7 +138,7 @@
 
         <!--Секция ОТЗЫВЫ-->
         <section class="reviews">
-            <div class="container">
+            <div id="reviews" class="container">
 
                     <h2 class="reviews__title">ОТЗЫВЫ</h2>
 
@@ -168,7 +168,7 @@
 
         <!--Секция ГАЛЕРИЯ-->
         <section class="galleryfullscreen">
-            <div class="gallery">  
+            <div id="gallery" class="gallery">  
                 <div class="gallery__title-wrapper">
                     <div class="container">
                         <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
@@ -225,33 +225,36 @@
             </div>
         </section>
 
+        <!--Секция КОНТАКТЫ-->
         <section class="contacts">
-            <div class="container">
+            <div id="contacts" class="container">
                 <h2 class="contacts__title" id="contacts">КОНТАКТЫ</h2>
                     <div class="contacts__list">                  
-                        <a class="contacts__phone" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
-                        <!--
-                        <a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
-                        -->
+                        <a class="contacts__phone" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>                       
+                        <a class="contacts__mail" href="mailto:hello@mail.com">Fara@mail.com</a>               
                     </div>
             </div>
         </section> 
     </main>
 
-    <script src="gallery.js"></script>
-
-    <!--
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <nav class="footer__nav">
-                <a href="#aboutus">О НАС</a>
-                <a href="#projects">ПРОЕТКЫ</a>
-                <a href="#services">УСЛУГИ</a>
-                <a href="#contacts">КОНТАКТЫ</a>
-            </nav>
-            <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+            <div class="footer__inner">              
+                <nav class="footer__nav">
+                    <a class="nav__link" href="#aboutus">О НАС</a>
+                    <a class="nav__link" href="#projects">ПРОЕТКЫ</a>
+                    <a class="nav__link" href="#services">УСЛУГИ</a>
+                    <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+                </nav>
+
+                <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+
+            </div>
         </div>    
     </footer>
+
+    <script src="gallery.js"></script>
+
 </body>
--->
+
 </html>
