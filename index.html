@@ -170,7 +170,7 @@
         <section class="galleryfullscreen">
             <div class="gallery">  
                 <div class="gallery__title-wrapper">
-                    <div class="gallery__title_container">
+                    <div class="container">
                         <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                     <div class="gallery__slide gallery__slide_active">
                         <img class="gallery__image" src="resources/galleryfullscreen/forest.png" alt="диван">
                         <div class="galley__text-wrapper">
-                            <div class="gallery__text_container">
+                            <div class="container">
                                 <p class="gallery__text">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p> 
                             </div> 
                         </div>
@@ -188,7 +188,7 @@
                     <div class="gallery__slide">
                         <img class="gallery__image" src="resources/galleryfullscreen/Mayak.png" alt="желтый стул">
                         <div class="galley__text-wrapper">
-                            <div class="gallery__text_container">
+                            <div class="container">
                                 <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
                             </div>   
                         </div>                    
@@ -197,7 +197,7 @@
                     <div class="gallery__slide">
                         <img class="gallery__image" src="resources/galleryfullscreen/kitchen.png" alt="гостинная">
                         <div class="galley__text-wrapper">
-                            <div class="gallery__text_container">
+                            <div class="container">
                                 <p class="gallery__text">Визуализация кухни-гостиной в частном доме</p>
                             </div> 
                         </div>  
@@ -206,7 +206,7 @@
                     <div class="gallery__slide">
                         <img class="gallery__image" src="resources/galleryfullscreen/north.png" alt="кухня">
                         <div class="galley__text-wrapper">
-                            <div class="gallery__text_container">
+                            <div class="container">
                                 <p class="gallery__text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
                             </div> 
                         </div>  
@@ -214,7 +214,7 @@
                 </div>
              
                 <div class="gallery__controls-wrapper">
-                    <div class="gallery__container">
+                    <div class="container">
                         <div class="gallery__control">
                             <button class="gallery__control-prev"> </button>
                             <button class="gallery__control-next"> </button>
@@ -225,24 +225,22 @@
             </div>
         </section>
 
-        <script src="gallery.js"></script>
-
-        <!--
         <section class="contacts">
             <div class="container">
-                <h2 id="contacts">КОНТАКТЫ</h2>
-                    <ul>
-                        <li>                  
-                            <a class="contacts__item" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
-                        </li>
-                        <li>
-                            <a class="contacts__item" href="mailto:hello@mail.com">hello@mail.com</a>
-                        </li>
-                    </ul>
+                <h2 class="contacts__title" id="contacts">КОНТАКТЫ</h2>
+                    <div class="contacts__list">                  
+                        <a class="contacts__phone" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
+                        <!--
+                        <a class="contacts__mail" href="mailto:hello@mail.com">hello@mail.com</a>
+                        -->
+                    </div>
             </div>
         </section> 
     </main>
-    
+
+    <script src="gallery.js"></script>
+
+    <!--
     <footer>
         <div class="container">
             <nav class="footer__nav">

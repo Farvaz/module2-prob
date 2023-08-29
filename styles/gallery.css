@@ -9,12 +9,6 @@
     z-index: 100;
 }
 
-.gallery__title_container {
-    width: 1150px;
-    margin: 0 auto;
-    position: relative;
-}
-
 .gallery__title {
     font-size: 22px;
     line-height: 30.05px;
@@ -27,12 +21,6 @@
     bottom: 165.33px;
     width: 100%;
 }
-    
-.gallery__container {
-    width: 1150px;
-    margin: 0 auto;
-    position: relative;
-}
 
 .gallery__control {
     display: flex;
@@ -43,12 +31,6 @@
     position: absolute;
     bottom: 60px;
     width: 100%;
-}
-
-.gallery__text_container {
-    width: 1150px;
-    margin: 0 auto;
-    position: relative;
 }
 
 .gallery__text {
@@ -102,13 +84,12 @@
     cursor: pointer;
 }
 
-@media (max-width: 1199px) {
-    .gallery__title_container {
-        width: 100%;
-        padding-left: 17px;
-        padding-right: 15px;
-    }
+.gallery__control-prev:hover,
+.gallery__control-next:hover {
+    opacity: 0.5;
+}
 
+@media (max-width: 1199px) {
     .gallery__title-wrapper {
         width: 100%;
         top: 80px;
@@ -117,12 +98,6 @@
     .gallery__title {
         font-size: 20px;
         line-height: 27.32px;
-    }
-
-    .gallery__text_container {
-        width: 100%;
-        padding-left: 17px;
-        padding-right: 15px;
     }
 
     .galley__text-wrapper {
@@ -135,12 +110,6 @@
         line-height: 34.15px; 
     }
 
-    .gallery__container {
-        width: 100%;
-        padding-left: 17px;
-        padding-right: 15px;
-    }
-
     .gallery__controls-wrapper {
         bottom: 152px;
     }
@@ -149,14 +118,13 @@
         display: flex;
         gap: 14px;
     }
+
+    .gallery__slides {
+        height: 563px;
+    }
 }
 
 @media (max-width: 767px) {
-    .gallery__title_container {
-        padding-left: 13px;
-        padding-right: 12px;
-    }
-
     .gallery__title-wrapper {
         top: 61px;
     }
@@ -170,20 +138,10 @@
         bottom: 60px;
     }
 
-    .gallery__text_container {
-        padding-left: 13px;
-        padding-right: 12px;
-    }
-
     .gallery__text {
         max-width: 270px;
         font-size: 19.01px;
         line-height: 25.97px; 
-    }
-
-    .gallery__container {
-        padding-left: 13px;
-        padding-right: 12px;
     }
 
     .gallery__controls-wrapper {
@@ -194,5 +152,9 @@
         display: flex;
         justify-content: space-between;
         gap: 14px;
+    }
+
+    .gallery__slides {
+        height: 408px;
     }
 }
