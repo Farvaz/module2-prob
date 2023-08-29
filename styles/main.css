@@ -23,6 +23,11 @@ h1, h2, h3, div, p, a {
     color: #121212;
 }
 
+.title {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
 .container {
     margin: 0 auto;
     width: 1150px 

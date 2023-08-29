@@ -4,9 +4,7 @@
     background-color: #121212;
 }
 
-.services__title {
-    font-size: 18px;
-    line-height: 24.59px;
+.services .title {
     color: #FFFFFF;
 }
 
