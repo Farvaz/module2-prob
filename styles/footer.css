@@ -31,7 +31,36 @@
     margin-top: 87px;
     text-align: center;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 27.32px;
     color: #ffffff;
     opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        padding: 30px 0 26px;
+    }
+
+    .footer__nav {
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 34px;
+    }
+
+    .nav__link {
+        font-size: 12px;
+        line-height: 16.39px;
+    }
+
+    .footer__text {
+        margin-top: 41px;
+        font-size: 13px;
+        line-height: 17.76px;
+    }
 }
