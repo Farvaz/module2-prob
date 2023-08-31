@@ -28,12 +28,6 @@
 }
 
 @media (max-width: 1199px) {
-    .container {
-        width: 100%;
-        padding-left: 17px;
-        padding-right: 15px;
-    }
-
     .intro__title {
         width: 802px;
         font-size: 50px;
@@ -55,11 +49,6 @@
 }
 
 @media (max-width: 767px) {
-    .container {
-        padding-left: 13px;
-        padding-right: 12px;
-    }
-
     .intro {
         padding-top: 61px;
     }
@@ -69,7 +58,7 @@
     }
 
     .intro__title {
-        width: 348px;
+        width: 100%;
         font-size: 30px;
         line-height: 31.62px;   
     }

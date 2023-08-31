@@ -56,18 +56,14 @@
 }
 
 .services__btn:hover {
-    color: #AD1818;
+    cursor: pointer;
     background-color: #FFFFFF;
+    color: #AD1818;
+    cursor: pointer;
 }
 
 
 @media (max-width: 1199px) {
-    .container {
-        width: 100%;
-        padding-left: 27px;
-        padding-right: 23px;
-    }
-
     .services { 
         padding-top: 120px;
         padding-bottom: 120px;
@@ -107,12 +103,6 @@
 }
 
 @media (max-width: 767px) {
-    .container {
-        width: 100%;
-        padding-left: 21px;
-        padding-right: 15px;
-    }
-
     .services { 
         padding-top: 80px;
         padding-bottom: 80px;

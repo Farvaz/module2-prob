@@ -32,12 +32,6 @@
 }
 
 @media (max-width: 1199px) {
-    .container {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 15px;
-    }
-
     .about {
         padding-top: 120px;
     }
@@ -57,16 +51,11 @@
 }
 
 @media (max-width: 767px) {
-    .container {
-        padding-left: 12px;
-        padding-right: 17px;
-    }
-
     .about {
         padding-top: 80px;
     }
 
-    .title {
+    .about__title {
         font-size: 14px;
         line-height: 19.12px;   
     }

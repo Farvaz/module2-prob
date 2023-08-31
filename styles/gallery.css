@@ -64,8 +64,9 @@
     object-fit: cover;
 }
 
+
+.gallery__control-next,
 .gallery__control-prev {
-    background-image: url('../resources/gallerypbutprev.png');
     background-repeat: no-repeat;
     width: 40px;
     height: 37px;
@@ -74,14 +75,12 @@
     cursor: pointer;
 }
 
+.gallery__control-prev {
+    background-image: url('../resources/gallerypbutprev.png');
+}
+
 .gallery__control-next {
     background-image: url('../resources/gallerypbutnext.png');
-    background-repeat: no-repeat;
-    width: 40px;
-    height: 37px;
-    background-color: unset;
-    border: unset;
-    cursor: pointer;
 }
 
 .gallery__control-prev:hover,
